@@ -116,9 +116,9 @@ fn get_expiration(matches: &ArgMatches, default: u32)->  u32 {
 
 	if let Some(text) = matches.value_of("duration") {
 		final_expiration = if let Ok(duration_parsed) = text.parse::<i32>() {
-			Utc::now().checked_add_signed(Duration::seconds(duration_parsed.into())).unwrap().timestamp() as u32
+			Utc::now().checked_add_signed(Duration::seconds(duration_parsed as i64)).unwrap().timestamp() as u32
 		} else {
-			panic!("expiration needs to be a number in UNIX timestamp, I couldn't parse this: {}", text);
+			panic!("duration needs to be a number, I couldn't parse this: {}", text);
 		}
 	};
 
