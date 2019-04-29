@@ -1,6 +1,8 @@
 # Slacktus
 
-This is an small utility for updating your slack status. I wrote it in Rust because it is multiplatform, fast and dependency free. I may publish it as a crate in the future after some time using it.
+This is an small utility for updating your slack status. I wrote it in Rust because it is multiplatform, fast and dependency free. 
+
+I use it with my pomodoro app. I may publish it as a crate in the future after some time using it.
 
 ## Installation
 
