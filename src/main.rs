@@ -25,7 +25,7 @@ fn main() {
 	let matches = App::new("Slacktus - Change your slack status with one command.")
 	.version("1.0")
 	.author("David Bonet <dbmontes@gmail.com>")
-	.about("It upadtes your slack status in one command. Perfect for pomodoro apps and similar.")
+	.about("It updates your slack status in one command. Perfect for pomodoro apps and similar.")
 	.arg(Arg::with_name("token")
 		.short("t")
 		.long("token")
@@ -59,7 +59,7 @@ fn main() {
 	.arg(Arg::with_name("duration")
 		.short("d")
 		.long("duration")
-		.help("Second you want your status to stay there. Overwrites expiration flag.")
+		.help("Seconds you want your status to stay there. Overwrites expiration flag.")
 		.takes_value(true))
 	.get_matches();
 
