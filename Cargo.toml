@@ -3,6 +3,11 @@ name = "slacktus"
 version = "0.1.0"
 authors = ["David Bonet Montes <webbonet@gmail.com>"]
 edition = "2018"
+license = "Apache-2.0"
+description = "Small binary utility for updating the slack status from the terminal. I use it for my pomodoro app."
+documentation = "https://github.com/DavidBM/slacktus/blob/master/README.md"
+homepage = "https://github.com/DavidBM/slacktus"
+repository = "https://github.com/DavidBM/slacktus"
 
 [dependencies]
 clap = "~2.32"
@@ -10,4 +15,3 @@ reqwest = "0.9.12"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 chrono = "0.4"
-
