@@ -1,6 +1,6 @@
 [package]
 name = "slacktus"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["David Bonet Montes <webbonet@gmail.com>"]
 edition = "2018"
 license = "Apache-2.0"
