@@ -8,6 +8,7 @@ description = "Small binary utility for updating the slack status from the termi
 documentation = "https://github.com/DavidBM/slacktus/blob/master/README.md"
 homepage = "https://github.com/DavidBM/slacktus"
 repository = "https://github.com/DavidBM/slacktus"
+readme="README.md"
 
 [dependencies]
 clap = "~2.32"
