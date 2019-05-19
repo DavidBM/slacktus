@@ -85,7 +85,7 @@ fn main() {
 
     let token = matches
         .value_of("token")
-        .unwrap_or("--token=TOKEN is required");
+        .expect("--token=TOKEN is required");
 
     let profile_request = ProfileRequest {
         profile: profile_data,
@@ -125,7 +125,7 @@ fn get_expiration(matches: &ArgMatches, default: u32) -> u32 {
         final_expiration = if let Ok(duration_parsed) = text.parse::<i32>() {
             Utc::now()
                 .checked_add_signed(Duration::seconds(i64::from(duration_parsed)))
-                .unwrap()
+                .expect("Failed calculating the duration time. Error when adding the time to `Utc::now()`.")
                 .timestamp() as u32
         } else {
             panic!(
