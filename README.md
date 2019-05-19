@@ -41,4 +41,4 @@ OPTIONS:
 
 ## Contributing
 
-The project is veeery simple. Additions are welcome. Any change or improvement, welcome too. Just let me know the use case and if you can the code. If I have time I would love to updated and extend it too. 
+The project is veeery simple. Additions are welcome. Any change or improvement, welcome too. Just let me know the use case. If I have time I would love to updated and extend it too. 
