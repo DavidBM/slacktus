@@ -14,6 +14,13 @@ cargo install --path .
 
 ## How to use
 
+TL;DR. As an example: 
+
+```bash
+slacktus -t xoxp-00000000000-00000000000-00000000000-00000000000000000000000000000000 -e :tomato: -s 'Focusing for 25 min, I will respond in a bit' -d 1
+```
+
+
 After it is installed, execute `slacktus --help` and it will show all the options.
 
 ```
